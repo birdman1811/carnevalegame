@@ -1,0 +1,53 @@
+.factionname{
+    color: #6e4292;
+    text-align: center;
+    font-size: 60pt;
+    font-family: Buckingham;
+}
+
+.textbox{
+    text-align: center;    
+    background-color: black;
+}
+
+svg{
+    fill: #9a191a;
+    height: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+.miniaturegrid{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 17% 17% 17% 17% 17%;
+    background-color: black;
+    padding: 10px;
+    color: #9a191a;
+}
+
+.grid-item{
+    background-color: black;
+    
+    padding: 0px;
+    text-align: center;
+    color: #9a191a;
+}
+
+@media screen and (max-width: 1200px){
+    .miniaturegrid{
+        grid-template-columns: auto auto auto
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .miniaturegrid{
+        grid-template-columns: auto 
+    }
+    .factionname{
+        font-size: 50pt;
+    }
+  }

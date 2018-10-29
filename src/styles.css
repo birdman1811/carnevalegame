@@ -1,0 +1,101 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* Application-wide Styles */
+@font-face{
+    font-family: buckingham;
+    src :url(assets/BuckinghamRegular.ttf) format("opentype");
+}
+
+@font-face{
+  font-family: ACaslonPro;
+  src :url(assets/ACaslonPro-Regular.otf) format("opentype");
+}
+
+h1 {
+    font-size: 450%;
+    color: #9a191a;
+    font-family: buckingham;
+    text-align: center;
+  }
+    h2, h3 {
+    color: #9a191a;
+    font-family: AcaslonPro;
+    
+    text-align: left;
+  }
+
+  p{
+    color: aliceblue;
+    font-family: AcaslonPro;
+    margin: 5px;
+  }
+  body {
+    margin: 0px;
+    background-color: #13100d;
+    background-image: url("assets/images/gatepattern.png");
+  }
+  body, input[text], button {
+    color: #888;
+    font-family: AcaslonPro;
+    margin: 2px;
+  }
+  /* everywhere else */
+  * {
+    font-family: AcaslonPro;
+  }
+
+  /*Header Style*/
+  .header {
+    
+    text-align: center;
+  }
+
+  .textbox{
+    text-align: center;
+    margin: 10px;
+}
+
+.mat-menu-content{
+  color: #9a191a;
+  background-color: #9a191a;
+}
+
+.showimg{
+  height: 400px;
+  width: 600px;
+}
+
+.charimg{
+  height:250px;  
+}
+  
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px){
+
+    .showimg{
+      height:200px;
+      width:300px;
+      
+      
+    }
+
+    .charimg{
+      height:100px;
+      
+   }
+
+   h1 {
+    font-size: 250%;
+    color: #9a191a;
+    font-family: buckingham;
+    text-align: center;
+  }
+
+  p{
+    color: aliceblue;
+    font-family: AcaslonPro;
+    font-size: small;
+  }
+    
+    }

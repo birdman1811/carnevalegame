@@ -1,0 +1,50 @@
+<mat-toolbar>
+        <span class="fill-remaining-space">
+          <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>menu</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu" [overlapTrigger]="false">
+            <button mat-menu-item routerLink="/gettingstarted">              
+              <span>Getting Started</span>
+            </button>
+            <button mat-menu-item routerLink="/about">              
+              <span>Playing Carnevale</span>
+            </button>
+            <button mat-menu-item [matMenuTriggerFor]="factionmenu">              
+              <span>Factions of Carnevale</span>
+            </button>
+            <mat-menu #factionmenu="matMenu" [overlapTrigger]="false">
+                <button mat-menu-item routerLink="/guild"> 
+                    <span>The Guild</span>                        
+                </button>
+                <button mat-menu-item routerLink="/rashaar">
+                        <span>Rashaar</span>
+                </button>
+                <button mat-menu-item a routerLink="/doctors">
+                        <span>The Doctors </span>
+                </button>
+                <button mat-menu-item routerLink="/patricians">
+                        <span>The Patricians</span>
+                </button>
+                <button mat-menu-item routerLink="/vatican">
+                         <span>The Vatican</span>
+                </button>
+                <button mat-menu-item routerLink="/strigoi">
+                        <span>Strigoi</span>
+                 </button>
+                <button mat-menu-item routerLink="/gifted">
+                        <span>Gifted</span>
+                 </button>
+    
+            </mat-menu>
+            <a mat-menu-item href ="http://www.webapp.carnevalegame.com/carnevale-list-builder/"target="_blank"><span>Gang Builder</span> </a>             
+                          
+            <button mat-menu-item routerLink="/resources">
+                <span>Resources</span>
+            </button>
+          </mat-menu>
+        </span>
+        <span class = "fill-remaining-space-title">Carnevale</span>
+      </mat-toolbar>
+
+<div class = "header"><img src="assets/images/Carnevalehalflogo.png"></div>

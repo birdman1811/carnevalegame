@@ -1,0 +1,22 @@
+.introbody{
+    background-image: url("../../assets/images/triptych.jpg");
+    height: 1000px;
+}
+
+.mobilepic{
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    .introbody{
+        background-image: none;
+    height:0
+    }
+
+    .mobilepic{
+        display: grid;
+        height:700px;
+        width:700px;
+    }
+    }
+

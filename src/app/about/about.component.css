@@ -1,0 +1,63 @@
+.aboutbody{
+    
+    height: auto;
+    background-repeat: no-repeat;
+
+}
+
+.textbox{
+    text-align: center;
+    background-color: black; 
+}
+
+svg{
+    fill: #9a191a;
+    height: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+li {
+    color: #9a191a;
+    margin: 20px;
+}
+
+.charimg{
+    width: 250px;
+    
+}
+
+.altcharimg{
+    width: 250px;
+
+}
+
+.miniaturegrid{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 10px;
+    color: #9a191a;
+}
+
+.miniaturegrid .grid-item{
+    background-color: black;
+    border: 1px solid #9a191a;
+    padding: 20px;
+    text-align: center;
+    color: #9a191a;
+}
+
+@media screen and (max-width:600px){
+    .miniaturegrid{
+        grid-template-columns: auto
+    }
+
+    .svg{
+        width:300px;
+        height: auto;
+    }
+  }

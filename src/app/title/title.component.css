@@ -1,0 +1,64 @@
+.header{
+    text-align: center
+}
+
+.fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    width: 50px;
+    background-color: #9a191a;
+    color: black;
+    font-family: buckingham; 
+       
+  }
+
+  .fill-remaining-space-title{
+      color:#9a191a;
+  }
+  
+  mat-toolbar{
+    color: #9a191a;
+    background-color: #9a191a;
+    display:none;
+  }
+
+  .matMenu{
+      background-color: #9a191a;
+      color: #9a191a;
+  }
+
+  .mat-menu-content{
+      background-color: #9a191a !important;
+      color: #9a191a !important;
+  }
+
+  .mat-menu-item{
+      color:black;
+      background-color: #9a191a;
+  }
+
+  
+
+  @media screen and (max-width:900px){
+ .header{
+     display: none;        
+ }
+
+ .fill-remaining-space-title{    
+    background-color: #9a191a;
+    color: black;
+    font-family: buckingham;
+}
+
+mat-toolbar{
+    display: flex;
+}
+
+
+
+
+
+
+ 
+  }
+
