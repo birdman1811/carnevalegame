@@ -63,6 +63,7 @@ h1 {
 .showimg{
   height: 400px;
   width: 600px;
+  border-radius: 15%;
 }
 
 .charimg{
