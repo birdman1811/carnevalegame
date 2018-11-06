@@ -38,6 +38,64 @@ h3{
     color: #9a191a;
 }
 
+mat-expansion-panel{
+    color: #9a191a;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+mat-panel-description{
+    color: #9a191a;
+}
+
+mat-panel-title{
+    min-width: 35%;
+}
+
+
+.guildtitle{
+    color: #d20a11;
+    font-family: Buckingham;
+}
+
+.rashaartitle{
+    color: #37ab49;
+    font-family: Buckingham;
+}
+
+.doctorstitle{
+    font-family: Buckingham;
+    color: #5bc5f2;
+}
+
+.patricianstitle{
+    font-family: Buckingham;
+    color: #6e4292;
+}
+
+.vaticantitle{
+    font-family: Buckingham;
+    color: #f9b122;
+}
+
+.strigoititle{
+    color: #2e3192;
+    font-family: Buckingham;
+}
+
+.giftedtitle{
+    color: #ef7e25;
+    font-family: Buckingham;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #9a191a;
+}
+
   
 
 @media screen and (max-width: 1200px){
