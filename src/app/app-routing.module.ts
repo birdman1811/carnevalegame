@@ -13,6 +13,7 @@ import { PatriciansComponent } from './patricians/patricians.component';
 import { VaticanComponent } from './vatican/vatican.component';
 import { StrigoiComponent } from './strigoi/strigoi.component';
 import { GiftedComponent } from './gifted/gifted.component';
+import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component';
 
 const routes: Routes = [
   {path: '', component: IntroComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path: 'vatican', component: VaticanComponent},
   {path: 'strigoi', component: StrigoiComponent},
   {path: 'gifted', component: GiftedComponent},
+  {path: 'charstatcards', component: CharacterstatcardsComponent},
 ];
 
 @NgModule({

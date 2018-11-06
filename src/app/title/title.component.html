@@ -39,9 +39,16 @@
             </mat-menu>
             <a mat-menu-item href ="http://www.webapp.carnevalegame.com/carnevale-list-builder/"target="_blank"><span>Gang Builder</span> </a>             
                           
-            <button mat-menu-item routerLink="/resources">
+            <button mat-menu-item [matMenuTriggerFor]="statcardmenu">              
                 <span>Resources</span>
-            </button>
+              </button>
+              <mat-menu #statcardmenu="matMenu" [overlapTrigger]="false">
+                  <button mat-menu-item routerLink="/charstatcards"> 
+                      <span>Character Stat Cards</span>                        
+                  </button>
+                  
+      
+              </mat-menu>
           </mat-menu>
         </span>
         <span class = "fill-remaining-space-title">Carnevale</span>
