@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CharacterstatcardsComponent implements OnInit {
 
+
+
+
+
   constructor() { }
 
   ngOnInit() {

@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatExpansionModule, MatAccordion, MatExpansionPanelDescription, MatExpansionPanelHeader, MatExpansionPanel} from '@angular/material/expansion';
 
 import { MaterialModule } from './material.module';
 import { FormsModule } from '@angular/forms';
@@ -22,10 +23,12 @@ import { PatriciansComponent } from './patricians/patricians.component';
 import { VaticanComponent } from './vatican/vatican.component';
 import { StrigoiComponent } from './strigoi/strigoi.component';
 import { GiftedComponent } from './gifted/gifted.component';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatExpansionPanelTitle } from '@angular/material';
 import { LayoutModule } from '@angular/cdk/layout';
 import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component';
 import { FooterComponent } from './footer/footer.component';
+import { CommonModule } from '@angular/common';
+import { PortalModule } from '@angular/cdk/portal';
 
 
 
@@ -49,7 +52,10 @@ import { FooterComponent } from './footer/footer.component';
     GiftedComponent,
     CharacterstatcardsComponent,
     FooterComponent,
-    
+    MatExpansionPanelTitle,
+    MatExpansionPanelDescription,
+    MatExpansionPanelHeader,
+    MatExpansionPanel,
     
   ],
   imports: [
@@ -65,9 +71,10 @@ import { FooterComponent } from './footer/footer.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    
+    CommonModule,
     MaterialModule,
     FormsModule,
+    PortalModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
