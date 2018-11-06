@@ -30,6 +30,7 @@ const routes: Routes = [
   {path: 'strigoi', component: StrigoiComponent},
   {path: 'gifted', component: GiftedComponent},
   {path: 'charstatcards', component: CharacterstatcardsComponent},
+  
 ];
 
 @NgModule({

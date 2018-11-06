@@ -25,6 +25,7 @@ import { GiftedComponent } from './gifted/gifted.component';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule } from '@angular/material';
 import { LayoutModule } from '@angular/cdk/layout';
 import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -47,6 +48,7 @@ import { CharacterstatcardsComponent } from './characterstatcards/characterstatc
     StrigoiComponent,
     GiftedComponent,
     CharacterstatcardsComponent,
+    FooterComponent,
     
     
   ],
