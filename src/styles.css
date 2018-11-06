@@ -32,7 +32,7 @@ h1 {
   body {
     margin: 0px;
     background-color: #13100d;
-    background-image: url("assets/images/gatepattern.png");
+    
   }
   body, input[text], button {
     color: #888;
@@ -52,7 +52,14 @@ h1 {
 
   .textbox{
     text-align: center;
-    margin: 10px;
+    padding: 5%;
+    width:60%;
+    margin-left: 15%;
+    
+}
+
+.emptycolumn{
+  min-width:20%
 }
 
 .mat-menu-content{
@@ -80,6 +87,14 @@ h1 {
       
       
     }
+
+    .textbox{
+      text-align: center;
+      padding: 5%;
+      width:90%;
+      margin-left: 0;
+      
+  }
 
     .charimg{
       height:100px;
