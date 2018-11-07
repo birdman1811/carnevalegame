@@ -2,8 +2,9 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatExpansionPanelDescription, MatExpansionPanelHeader, MatExpansionPanel} from '@angular/material/expansion';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatExpansionPanelTitle } from '@angular/material';
+
+import { MatExpansionModule} from '@angular/material/expansion';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule } from '@angular/material';
 import { MaterialModule } from './material.module';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -53,17 +54,14 @@ import { CharacterstatcardsComponent } from './characterstatcards/characterstatc
     GiftedComponent,
     CharacterstatcardsComponent,
     FooterComponent,
-    MatExpansionPanelTitle,
-    MatExpansionPanelDescription,
-    MatExpansionPanelHeader,
-    MatExpansionPanel,
+    
     
   ],
   imports:[
  CommonModule,
 NgtUniversalModule,
  
-    
+    MatExpansionModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
