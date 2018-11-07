@@ -40,16 +40,18 @@ h3{
 
 mat-expansion-panel{
     color: #9a191a;
-    background-color: lightgrey;
+    background-color: rgb(197, 197, 197);
     text-align: center;
 }
 
 mat-panel-description{
     color: #9a191a;
+    
 }
 
 mat-panel-title{
     min-width: 35%;
+    
 }
 
 
@@ -115,5 +117,11 @@ a:hover{
     }
     .charicon{
         height: 100px;
+    }
+
+    mat-panel-description{
+        color: #9a191a;
+        font-size: small;
+        
     }
   }
