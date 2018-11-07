@@ -97,6 +97,10 @@ a:hover{
     color: #9a191a;
 }
 
+.charicon{
+    height: 200px;
+}
+
   
 
 @media screen and (max-width: 1200px){
@@ -108,5 +112,8 @@ a:hover{
   @media screen and (max-width: 600px){
     .miniaturegrid{
         grid-template-columns: auto 
+    }
+    .charicon{
+        height: 100px;
     }
   }
