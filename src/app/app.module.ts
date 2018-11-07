@@ -1,10 +1,14 @@
+import { NgtUniversalModule } from '@ng-toolkit/universal';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatExpansionModule, MatAccordion, MatExpansionPanelDescription, MatExpansionPanelHeader, MatExpansionPanel} from '@angular/material/expansion';
-
+import { MatExpansionPanelDescription, MatExpansionPanelHeader, MatExpansionPanel} from '@angular/material/expansion';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatExpansionPanelTitle } from '@angular/material';
 import { MaterialModule } from './material.module';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { PortalModule } from '@angular/cdk/portal';
+import { LayoutModule } from '@angular/cdk/layout';
 
 
 import { AppComponent } from './app.component';
@@ -23,12 +27,9 @@ import { PatriciansComponent } from './patricians/patricians.component';
 import { VaticanComponent } from './vatican/vatican.component';
 import { StrigoiComponent } from './strigoi/strigoi.component';
 import { GiftedComponent } from './gifted/gifted.component';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatExpansionPanelTitle } from '@angular/material';
-import { LayoutModule } from '@angular/cdk/layout';
-import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component';
 import { FooterComponent } from './footer/footer.component';
-import { CommonModule } from '@angular/common';
-import { PortalModule } from '@angular/cdk/portal';
+import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component'
+
 
 
 
@@ -58,8 +59,11 @@ import { PortalModule } from '@angular/cdk/portal';
     MatExpansionPanel,
     
   ],
-  imports: [
-    BrowserModule,
+  imports:[
+ CommonModule,
+NgtUniversalModule,
+ 
+    
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
@@ -77,7 +81,6 @@ import { PortalModule } from '@angular/cdk/portal';
     PortalModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }
 
