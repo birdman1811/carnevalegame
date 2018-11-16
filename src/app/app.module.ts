@@ -29,7 +29,8 @@ import { VaticanComponent } from './vatican/vatican.component';
 import { StrigoiComponent } from './strigoi/strigoi.component';
 import { GiftedComponent } from './gifted/gifted.component';
 import { FooterComponent } from './footer/footer.component';
-import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component'
+import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component';
+import { ScenariosComponent } from './scenarios/scenarios.component'
 
 
 
@@ -54,6 +55,7 @@ import { CharacterstatcardsComponent } from './characterstatcards/characterstatc
     GiftedComponent,
     CharacterstatcardsComponent,
     FooterComponent,
+    ScenariosComponent,
     
     
   ],
