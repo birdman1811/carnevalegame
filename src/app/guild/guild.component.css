@@ -19,32 +19,33 @@ h2{
     text-align: center;
 }
 
-.miniaturegrid{
-    display: grid;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    grid-template-columns: 17% 17% 17% 17% 17%;
-    background-color: black;
-    padding: 10px;
-    color: #9a191a;
+.lore{
+    width:50%;
+    float:left;
 }
 
-.grid-item{
-    background-color: black;
-    
-    padding: 0px;
-    text-align: center;
-    color: #9a191a;
+.story{
+    width: 50%;
+    background-color: #9a191a;
+    color: black;
+    float:right;
+    border-radius: 20%;
+    font-style: italic;
 }
-
-@media screen and (max-width: 1200px){
-    .miniaturegrid{
-        grid-template-columns: auto auto auto
-    }
-  }
 
   @media screen and (max-width: 600px){
-    .miniaturegrid{
-        grid-template-columns: auto 
+   
+
+    .lore{
+        width:100%;
+        float:left;
+    }
+    
+    .story{
+        width: 100%;
+        background-color: #9a191a;
+        color: black;
+        float:left;
+        border-radius: 20%;
     }
   }
