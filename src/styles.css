@@ -76,6 +76,12 @@ h1 {
 .charimg{
   height:250px;  
 }
+
+.youtubeVideo{
+  height: 315px;
+  width: 560px;
+  
+}
   
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -83,9 +89,13 @@ h1 {
 
     .showimg{
       height:200px;
-      width:300px;
+      width:300px;      
       
-      
+    }
+
+    .youtubeVideo{
+      height: 157px;
+      width: 280px;
     }
 
     .textbox{
