@@ -30,7 +30,8 @@ import { StrigoiComponent } from './strigoi/strigoi.component';
 import { GiftedComponent } from './gifted/gifted.component';
 import { FooterComponent } from './footer/footer.component';
 import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component';
-import { ScenariosComponent } from './scenarios/scenarios.component'
+import { ScenariosComponent } from './scenarios/scenarios.component';
+import { GameresourcesComponent } from './gameresources/gameresources.component'
 
 
 
@@ -56,6 +57,7 @@ import { ScenariosComponent } from './scenarios/scenarios.component'
     CharacterstatcardsComponent,
     FooterComponent,
     ScenariosComponent,
+    GameresourcesComponent,
     
     
   ],

@@ -15,6 +15,7 @@ import { StrigoiComponent } from './strigoi/strigoi.component';
 import { GiftedComponent } from './gifted/gifted.component';
 import { CharacterstatcardsComponent } from './characterstatcards/characterstatcards.component';
 import { ScenariosComponent } from './scenarios/scenarios.component';
+import { GameresourcesComponent } from './gameresources/gameresources.component'
 
 const routes: Routes = [
   {path: '', component: IntroComponent},
@@ -32,6 +33,7 @@ const routes: Routes = [
   {path: 'gifted', component: GiftedComponent},
   {path: 'charstatcards', component: CharacterstatcardsComponent},
   {path: 'scenarios', component: ScenariosComponent},
+  {path: 'gameresources', component: GameresourcesComponent},
 ];
 
 @NgModule({
