@@ -29,7 +29,7 @@ h2{
     background-color: #9a191a;
     color: black;
     float:right;
-    border-radius: 20%;
+    border-radius:5%;
 }
 
   @media screen and (max-width: 600px){
@@ -45,6 +45,6 @@ h2{
         background-color: #9a191a;
         color: black;
         float:left;
-        border-radius: 20%;
+        border-radius: 5%;
     }
   }
