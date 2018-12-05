@@ -54,6 +54,11 @@ mat-panel-title{
     
 }
 
+.Rules{
+    color:#6e4292;
+    font-family: Buckingham
+}
+
 .Templates{
     color:red;
     font-family: Buckingham;
