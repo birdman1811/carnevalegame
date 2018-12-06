@@ -31,7 +31,7 @@ h1 {
   }
   body {
     margin: 0px;
-    background-color: #0c0c0c;
+    background-color: #000000;
     
   }
   body, input[text], button {
@@ -54,9 +54,7 @@ h1 {
     text-align: center;
     padding: 5%;
     width:60%;
-    margin-left: 15%;
-    border-radius: 15%;
-    
+    margin-left: 15%;    
 }
 
 .emptycolumn{
@@ -74,14 +72,30 @@ h1 {
   border-radius: 15%;
 }
 
+.showimgwithintext{
+  height: 300px;  
+  float: right;
+  margin: 10px;
+}
+
+.longimage{
+  width:100%;
+}
+
+
+
 .charimg{
   height:250px;  
+}
+
+.videobar{
+  text-align: center;
 }
 
 .youtubeVideo{
   height: 315px;
   width: 560px;
-  
+  text-align: center;
 }
   
 
@@ -92,6 +106,10 @@ h1 {
       height:200px;
       width:300px;      
       
+    }
+
+    .showimgwithintext{
+      height: 200px;       
     }
 
     .youtubeVideo{
@@ -124,6 +142,6 @@ h1 {
     color: aliceblue;
     font-family: AcaslonPro;
     font-size: small;
-  }
+  }  
     
     }

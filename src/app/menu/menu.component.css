@@ -1,10 +1,10 @@
 nav a {
     padding: 10px 15px;
     text-decoration: #9a191a;
-    margin-top: 10px;
+    
     display: inline-block;
     background-color: black;
-    border-radius: 70%;
+    
     text-align: center;
     font-size: large;    
     
@@ -17,12 +17,12 @@ nav a {
     background-color: #cfd8dc;
   }
   nav a.active {
-    color: #039be5;
+    color: #0a0a0a;
   }
 
   .menubody{
     text-align: center;     
-    
+    background-color: rgb(12, 12, 12)
       
   }
 
@@ -39,8 +39,7 @@ nav a {
     text-decoration: #9a191a;
     margin-top: 10px;
     display: inline-block;
-    background-color: black;
-    border-radius: 4px;
+    background-color: black;    
     text-align: center;
     font-size: large;
     color: #9a191a;
