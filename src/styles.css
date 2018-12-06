@@ -28,6 +28,7 @@ h1 {
     color: aliceblue;
     font-family: AcaslonPro;
     margin: 5px;
+    font-size: x-large;
   }
   body {
     margin: 0px;
@@ -55,6 +56,7 @@ h1 {
     padding: 5%;
     width:60%;
     margin-left: 15%;    
+    min-height: 400px;
 }
 
 .emptycolumn{
@@ -90,12 +92,14 @@ h1 {
 
 .videobar{
   text-align: center;
+  width:100%;
 }
 
 .youtubeVideo{
-  height: 315px;
-  width: 560px;
+  height: 415px;
+  width: 560px;  
   text-align: center;
+  padding: 10px;
 }
   
 
@@ -109,7 +113,8 @@ h1 {
     }
 
     .showimgwithintext{
-      height: 200px;       
+      height: 200px;           
+      float: left;
     }
 
     .youtubeVideo{

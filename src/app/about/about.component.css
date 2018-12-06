@@ -19,6 +19,14 @@ h2{
     text-align: center;
 }
 
+.shorttextbox{
+    text-align: center;
+    padding: 5%;
+    width:60%;
+    margin-left: 15%; 
+    min-height: 300px;
+}
+
 li {
     color: #9a191a;
     margin: 20px;
@@ -51,6 +59,18 @@ li {
     color: #9a191a;
 }
 
+.videobar1{
+    text-align: center;
+  width:100%;
+  background-image: url(/assets/images/Rashaars\ Attacks\ Picture\ Blurry.png);
+}
+
+.videobar2{
+    text-align: center;
+  width:100%;
+  background-image: url(/assets/images/Battle\ of\ the\ Madmen\ Picture\ Blurry.png);
+}
+
 @media screen and (max-width:600px){
     .miniaturegrid{
         grid-template-columns: auto
@@ -59,5 +79,13 @@ li {
     .svg{
         width:300px;
         height: auto;
+    }
+
+    .shorttextbox{
+        text-align: center;
+        padding: 5%;
+        width:60%;
+        margin-left: 15%; 
+        min-height: 300px;
     }
   }
