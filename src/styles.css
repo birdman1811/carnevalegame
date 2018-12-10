@@ -28,7 +28,8 @@ h1 {
     color: aliceblue;
     font-family: AcaslonPro;
     margin: 5px;
-    font-size: x-large;
+    font-size: medium;
+    
   }
   body {
     margin: 0px;
@@ -51,12 +52,20 @@ h1 {
     text-align: center;
   }
 
-  .textbox{
-    text-align: center;
-    padding: 5%;
+.introtextbox{
+  text-align: center;
+    padding: 50px;
     width:60%;
     margin-left: 15%;    
-    min-height: 400px;
+    
+}
+
+  .textbox{
+    text-align: left;
+    padding: 50px;
+    width:60%;
+    margin-left: 15%;    
+    min-height: 700px;
 }
 
 .emptycolumn{
@@ -75,7 +84,7 @@ h1 {
 }
 
 .showimgwithintext{
-  height: 300px;  
+  height: 500px;  
   float: right;
   margin: 10px;
 }
@@ -107,14 +116,14 @@ h1 {
   @media screen and (max-width:600px){
 
     .showimg{
-      height:200px;
-      width:300px;      
+      height:200px;          
       
     }
 
     .showimgwithintext{
-      height: 200px;           
+      height:200px;          
       float: left;
+      margin: 10px;
     }
 
     .youtubeVideo{
@@ -123,12 +132,21 @@ h1 {
     }
 
     .textbox{
-      text-align: center;
+      text-align: left;
       padding: 5%;
       width:90%;
       margin-left: 0;
       border-radius: 2%;
-      
+      min-height: 50px;      
+  }
+
+  .introtextbox{
+    text-align: center;
+      padding: 5%;
+      width:90%;
+      margin-left: 0;
+      border-radius: 2%;
+      min-height: 50px;        
   }
 
     .charimg{
