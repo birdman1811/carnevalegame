@@ -34,6 +34,15 @@ li {
     
 }
 
+.showboard{
+    height:600px;
+    
+}
+
+.centralimage{
+    text-align: center;
+}
+
 .altcharimg{
     width: 250px;
 
